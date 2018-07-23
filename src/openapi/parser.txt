@@ -1,0 +1,33 @@
+Parser
+XML문서를 읽고 해석해서 태그명, 속성명, 속성값, 태그와 태그 사이의 입력한 텍스트 등을 하나 하나
+분석할 수 있도록 도와 주는 프로그램
+
+1. DOMParser
+   org.w3c.dom라이브러리
+   -xml문서를 해석하고 해석한 결과로 DOM객체를 생성한다. DOM객체 내부를 검색, 수정, 제어할 수 있도록
+          기능을 제공
+    
+    DocumentBuilderFactory
+    : parser객체를 생성해주는 객체          
+    
+    DocumentBuilder
+     : xml을 dom으로 파싱해주는 파서
+           
+   
+   - Document
+   - Element
+   - NodeList
+   - Node
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
