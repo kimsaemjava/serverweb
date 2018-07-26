@@ -25,7 +25,7 @@ public class AjaxFirstTest extends HttpServlet {
 		}else{
 			msg = "사용가능아이디";
 		}
-		System.out.println("get방식으로 ajax요청=>"+msg);
+		System.out.println("get방식으로 ajax요청(jquery)=>"+msg);
 		pw.println(msg);
 	}
 

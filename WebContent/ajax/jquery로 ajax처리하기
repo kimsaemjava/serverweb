@@ -1,0 +1,38 @@
+1. $.ajax()를 이용해서 ajax통신하기
+   - jQuery의 메소드를 정의할때 매개변수(파라미터)를 설정하는 방법이 json표현방법과 동일
+   - open api나 jQuery plugin을 사용하며 속성을 정의하는 방법도 거의 json표현방식
+   - jQuery에서 지원되는 ajax관련 메소드들은 내부에서 XMLHttpRequest를 이용해서 처리하므로
+             개발자가 직접 객체를 제어하지 않는다.
+             
+   [.ajax()의 매개변수]
+   url : ajax로 요청할 리소스의 경로(서블릿경로)
+   type : 요청방식 - get or post
+   data : JSON의 형태로 표현하는 방식으로 파라미터 입력
+   dataType : ajax처리 결과에 대한 타입 - text, json
+   success : 서버와 통신이 성공했을때 호출되는 함수 - 콜백
+   error : 서버와 통신이 실패했을때 호출되는 함수 - 콜백
+              
+2. $.get()
+   - get방식일때 사용
+   - .get(url,queryString,success_callback함수,타입)
+   - ajax요청 후 서버에서 전송받은 데이터 타입이 json이면 타입을 "json"으로 정의
+     ex)$.get("/serverweb/test.do",
+                {"id":id},mycall,"json")
+   
+3. $.post()   
+   - post방식일때 사용
+   - 나머지는 get과 동일
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+      
